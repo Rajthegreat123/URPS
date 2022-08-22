@@ -1,0 +1,26 @@
+{
+  "name": "ultimate-rock-paper-scissors",
+  "version": "0.0.1",
+  "description": "The Ultimate Rock Paper Scissors",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "GameDevRaj",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajthegreat123/URPS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rajthegreat123/URPS/issues"
+  },
+  "homepage": "https://github.com/Rajthegreat123/URPS#readme"
+}
