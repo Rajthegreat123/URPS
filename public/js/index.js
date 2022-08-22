@@ -1,4 +1,4 @@
-const socket = io('https://obscure-brushlands-52417.herokuapp.com/');
+const socket = io('');
 
 // DOM Elements
 const openCreateRoomBox = document.getElementById("open-create-room-box");
