@@ -11,8 +11,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const io = socketio(server);
 
-const {userConnected, connectedUsers, initializeChoices, moves, makeMove, choices} = require("../util/users");
-const {createRoom, joinRoom, exitRoom, rooms} = require("../util/rooms");
+const {userConnected, connectedUsers, initializeChoices, moves, makeMove, choices} = require("./util/users");
+const {createRoom, joinRoom, exitRoom, rooms} = require("./util/rooms");
 const e = require("express");
 const { exitCode } = require("process");
 
