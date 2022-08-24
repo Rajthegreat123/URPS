@@ -1,3 +1,6 @@
+const server = http.createServer(app);
+app.use(express.static(path.join(__dirname, "public")));
+const io = socketio(server);
 const socket = io('https://obscure-brushlands-52417.herokuapp.com/');
 
 // DOM Elements
